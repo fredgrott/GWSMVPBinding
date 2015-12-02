@@ -9,6 +9,11 @@ import android.support.annotation.CallSuper;
  * annotation.  I than create a ScreenView that extends relativelayout to get the correct lifecycle events
  * and presenter, screenviewbinding, and viewmodel are injected and setup is implemented in that
  * class.
+ *
+ * Yes, could have generic parameter linked screenviewbinding to viewmodel but than we would have clean
+ * presenter POJO. Obviously, if we were implementing a MVVM we would have a BaseBindingScreenView with
+ * basically the same set of methods and method details.
+ *
  * Created by fgrott on 12/2/2015.
  */
 @SuppressWarnings("unused")
