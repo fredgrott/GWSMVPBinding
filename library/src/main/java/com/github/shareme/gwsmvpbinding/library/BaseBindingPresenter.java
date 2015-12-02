@@ -7,7 +7,7 @@ import android.support.annotation.CallSuper;
  * BaseBindingPresenter, the way this works is a NameViewDataBinding as just a final class contains
  * the a set method that refers to a view.setMethod which of course has the the BindingAdapter
  * annotation.  I than create a ScreenView that extends relativelayout to get the correct lifecycle events
- * and presenter, screenviewbinding, and viewmodel are injected and setup is implemented in that
+ * and presenter, screenview, and viewmodel are injected and setup is implemented in that
  * class.
  *
  * Yes, could have generic parameter linked screenviewbinding to viewmodel but than we would have clean
